@@ -1,0 +1,69 @@
+/*
+Theme Name:  Twenty Twenty-Five Child
+Template:    twentytwentyfive
+Version:     1.0.0
+Description: Child theme adding a single-property template and shortcodes for the Austin properties CPT.
+Text Domain: twentytwentyfive-child
+*/
+
+.property-quick-facts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin: 1.5rem 0;
+	padding: 1rem 1.25rem;
+	border: 1px solid #e2e2e2;
+	border-radius: 8px;
+	background: #fafafa;
+}
+
+.property-quick-facts__item {
+	display: flex;
+	flex-direction: column;
+	min-width: 80px;
+}
+
+.property-quick-facts__label {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #666;
+}
+
+.property-quick-facts__value {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: #111;
+}
+
+.property-map {
+	width: 100%;
+	height: 400px;
+	border-radius: 8px;
+	margin: 1.5rem 0;
+	background: #eee;
+}
+
+.property-amenities {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 1rem 0;
+	list-style: none;
+	padding: 0;
+}
+
+.property-amenities li {
+	padding: 0.35rem 0.85rem;
+	border-radius: 999px;
+	background: #f0f0f0;
+	font-size: 0.9rem;
+}
+
+.property-meta-line {
+	margin: 0.5rem 0;
+}
+
+.property-meta-line strong {
+	margin-right: 0.5rem;
+}

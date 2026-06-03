@@ -1,0 +1,45 @@
+# --- Secrets & local config ---
+wp-config.php
+.env
+.env.local
+.claude/
+.mcp.json
+.local-wp.sh
+local-xdebuginfo.php
+
+# --- WordPress core (let readers install their own) ---
+/wp-admin/
+/wp-includes/
+/wp-*.php
+!/wp-config-sample.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# --- WordPress content: ship only the demo bits ---
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/uploads/
+
+# Plugins: ignore all, then un-ignore the ones we want (or none — see README)
+/wp-content/plugins/*
+!/wp-content/plugins/index.php
+
+# Bundled WP themes (let WordPress install them)
+/wp-content/themes/twentytwentythree/
+/wp-content/themes/twentytwentyfour/
+/wp-content/themes/twentytwentyfive/
+
+# --- Build artifacts ---
+**/node_modules/
+**/vendor/
+
+# --- OS junk ---
+**/.DS_Store
+Thumbs.db
+
+# --- Article drafts / screenshots (article repo, not demo repo) ---
+/screenshots/
+/sample.txt
+/sample-rewritten.txt

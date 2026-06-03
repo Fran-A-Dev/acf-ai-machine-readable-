@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "austinproperties-mcp": {
+      "type": "stdio",
+      "command": "<ABSOLUTE_PATH_TO_PROJECT>/.local-wp.sh",
+      "args": [
+        "--path=<ABSOLUTE_PATH_TO_PROJECT>",
+        "mcp-adapter",
+        "serve",
+        "--server=mcp-adapter-default-server",
+        "--user=admin"
+      ]
+    }
+  }
+}
