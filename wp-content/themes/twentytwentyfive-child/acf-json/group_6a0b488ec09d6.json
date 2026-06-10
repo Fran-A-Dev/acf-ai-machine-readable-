@@ -1,0 +1,237 @@
+{
+    "key": "group_6a0b488ec09d6",
+    "title": "Property Details",
+    "fields": [
+        {
+            "key": "field_6a0b488ec0a3c",
+            "label": "Price per Night",
+            "name": "price_per_night",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Nightly rate in USD.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "schema_property": "Offer.price",
+            "schema_output_format": "",
+            "min": "",
+            "max": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6a0b488ec0a6b",
+            "label": "Bedrooms",
+            "name": "bedrooms",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Integer count.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "schema_property": "ApartmentComplex.numberOfBedrooms",
+            "schema_output_format": "",
+            "min": "",
+            "max": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6a0b488ec0a77",
+            "label": "Bathrooms",
+            "name": "bathrooms",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Integer count.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6a0b488ec0a80",
+            "label": "Max Guests",
+            "name": "max_guests",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Integer count.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6a0b488ec0a88",
+            "label": "Address",
+            "name": "address",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Street address.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6a0b488ec0a90",
+            "label": "City",
+            "name": "city",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "City name.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6a0b488ec0a97",
+            "label": "Location",
+            "name": "location",
+            "aria-label": "",
+            "type": "google_map",
+            "instructions": "Lat\/lng on a map.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "height": "",
+            "center_lat": "",
+            "center_lng": "",
+            "zoom": ""
+        },
+        {
+            "key": "field_6a0b488ec0a9f",
+            "label": "Check-in Time",
+            "name": "checkin_time",
+            "aria-label": "",
+            "type": "time_picker",
+            "instructions": "e.g. 15:00",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:i a",
+            "return_format": "g:i a"
+        },
+        {
+            "key": "field_6a0b488ec0aa7",
+            "label": "Check-out Time",
+            "name": "checkout_time",
+            "aria-label": "",
+            "type": "time_picker",
+            "instructions": "e.g. 11:00",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:i a",
+            "return_format": "g:i a"
+        },
+        {
+            "key": "field_6a0b488ec0aaf",
+            "label": "Rating",
+            "name": "rating",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Decimal between 1 and 5.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "property"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Structured data for Austin short-term rental properties.",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": 1,
+    "ai_description": "Core structured details for each Austin property: pricing, capacity, location, check-in\/out times, rating.",
+    "modified": 1781131561
+}
